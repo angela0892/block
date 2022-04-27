@@ -1,0 +1,46 @@
+body{
+
+
+	background: #1caf6b ;
+
+}
+.inicio {
+	background: #0f5132;
+
+}
+.inicio li {
+
+	display: inline-block;
+	margin: 15px;
+	color: pink;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+
+}
+h2 {
+	
+	margin: 15px;
+	color: cyan;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+
+
+}
+.fa-facebook-official {
+
+	   color: #0d5fd7;
+	   font-size: 30px;
+}
+.fa-twitter-square{
+
+	    color: cyan;
+	    font-size: 30px;
+}
+.fa-instagram{
+	
+	color: purple;
+	font-size: 30px;
+
+}
