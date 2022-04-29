@@ -47,41 +47,27 @@
 
       	        ]);
       	while ($articulos->have_posts()) {
-      		$articulos->the_post();
-      		the_title();
-      		echo'<hr>';
+      		$articulos->the_post(); ?>
+
+
+
+
+
+      		<?php the_post_thumbnail('medium'); ?>
+				<h2><?php the_title(); ?></h2>
+
+				<?php the_excerpt(); ?>
+
+
+
+
+
+
       		
-      	} ?>
-
-				
-				<img src="https://www.rcrperu.com/wp-content/uploads/2020/01/oooooooooooooooooo.jpg" width="300">
-				<h2><u>Federación Peruana de Fútbol</u></h2>
-
-				<p>No solo corres con las piernas, corres con el alma.
-                  Mientras que no hayas luchado hasta el último segundo, no te sientas derrotado. ...
-                  La camiseta número 10 de aquel partido es una de las pocas que conservo, porque solía intercambiarlas. ...
-                  Soy real, no perfecta.
-                  "El fútbol es simple, pero es difícil jugar de forma simple", Johan Cruyff. "Si muero un día, estoy feliz porque traté de dar lo mejor de mí. Mi deporte me permitió hacer mucho, porque es el deporte más grande del mundo", Pelé. "Odio perder y eso te da una determinación extra para trabajar más duro"</p>
+      	<?php	} ?>
 
 
-				<img src="https://www.rcrperu.com/wp-content/uploads/2020/01/oooooooooooooooooo.jpg" width="300">
-				<h2><u>Federación Peruana de Fútbol</u></h2>
-
-				<p>No solo corres con las piernas, corres con el alma.
-                  Mientras que no hayas luchado hasta el último segundo, no te sientas derrotado. ...
-                  La camiseta número 10 de aquel partido es una de las pocas que conservo, porque solía intercambiarlas. ...
-                  Soy real, no perfecta.
-                  "El fútbol es simple, pero es difícil jugar de forma simple", Johan Cruyff. "Si muero un día, estoy feliz porque traté de dar lo mejor de mí. Mi deporte me permitió hacer mucho, porque es el deporte más grande del mundo", Pelé. "Odio perder y eso te da una determinación extra para trabajar más duro"</p>
-
-
-				<img src="https://www.rcrperu.com/wp-content/uploads/2020/01/oooooooooooooooooo.jpg" width="300">
-				<h2> <u>Federación Peruana de Fútbol</u></h2>
-
-				<p> No solo corres con las piernas, corres con el alma.
-                  Mientras que no hayas luchado hasta el último segundo, no te sientas derrotado. ...
-                  La camiseta número 10 de aquel partido es una de las pocas que conservo, porque solía intercambiarlas. ...
-                  Soy real, no perfecta.
-                  "El fútbol es simple, pero es difícil jugar de forma simple", Johan Cruyff. "Si muero un día, estoy feliz porque traté de dar lo mejor de mí. Mi deporte me permitió hacer mucho, porque es el deporte más grande del mundo", Pelé. "Odio perder y eso te da una determinación extra para trabajar más duro"</p>
+	
 				
 
 			</center>
