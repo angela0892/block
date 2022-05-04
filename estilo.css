@@ -17,6 +17,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 
+
 }
 h2 {
 	
@@ -43,4 +44,12 @@ h2 {
 	color: purple;
 	font-size: 30px;
 
+
+}
+.caja{
+	border: 1px solid black;
+
+}
+.col-sm-3{
+	padding-top: 	20px;
 }
