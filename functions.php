@@ -7,6 +7,10 @@ function codigo_inicial(){
 		"public"=>true
 	]);
 
+	register_nav_menus([
+		'principal'=> 'zona principal'
+	]);
+
 }
 
 ?>
